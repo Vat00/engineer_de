@@ -25,7 +25,6 @@ data = [
 df = pd.DataFrame(data)
 
 # 3. TRANSFORM: Очистка данных (убираем пробелы по краям)
-# Это работа дата-инженера — делать данные качественными
 df['product_name'] = df['product_name'].str.strip()
 
 print("Данные готовы к загрузке:")
